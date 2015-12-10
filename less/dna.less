@@ -101,6 +101,16 @@
       position: absolute;
       top: -5px;
       left: -@height;
+      &::before{
+        content: '';
+        width: 1px;
+        height: 30px;
+        left: 5px;
+        top: 0;
+        background-image: linear-gradient(white, rgba(255, 255, 255, 0));
+        position: absolute;
+        display: block;
+      }
 
       &:nth-of-type(2) {
         //transform: rotateX(40deg);
