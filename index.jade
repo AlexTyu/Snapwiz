@@ -1,0 +1,145 @@
+head
+  meta(charset='UTF-8')
+  meta(name='viewport', content='width=device-width, initial-scale=0.4')
+  title Project    
+  link(rel='stylesheet', href='css/style.css')
+  script(src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js')
+  script(src='http://code.jquery.com/ui/1.11.4/jquery-ui.js')
+  script(src='js/index.js')
+  script(src="https://use.typekit.net/qkh7oqo.js")
+  script.
+    try{Typekit.load({ async: true });}catch(e){}
+
+body
+  header
+    .header-wrap
+      .container
+        .logo
+        .menu
+          a Products
+          a Partners
+          a Company
+          a Jobs
+    
+  .background
+  section#intro
+    .container
+      .animation
+        .dna-text
+          span.header Deoxyribonucleic acid (DNA)
+          p Molecule that exist in each living thing on Earth and contain all genetic data of organism.<br>Human DNA is 2 meters long  
+        .dna-animation.parallax-scroll-8
+          .dna
+            - var n = 0
+            while n < 50
+              .protein= n++
+                b
+                b
+              
+      .content
+        h1 Personalized Learning <br>Powered by Science
+      .features
+        .feature.first
+          //img(src="/files/inspired.svg")
+          h3 Inspired
+          p When material is relevant, <br>students pursue learning.
+        
+        .feature.second
+          //img(src="/files/intelligent.svg")
+          h3 Intelligent
+          p Sophisticated algorithms pinpoint <br> the right areas of focus
+          
+        .feature.third(style="border: none;")
+          //img(src="/files/impactfull.svg")
+          h3 Data Science
+          p Building upon prior knowledge <br>supports retention
+          
+      span.products-link Our products
+  .wrapper      
+            
+    section#products
+      .container
+          h3 Products
+          span.subdescription Snapwiz learning platforms help K-20 educators deliver personalized instruction, gauge student understanding and communicate more effectively with students and parents.
+          
+    section.product#orion
+        .container
+          .info
+            h1 Orion
+            span Adaptive learning is an educational method
+            hr 
+            .navigation      
+              a#bullet1.active Intuitive Analytics
+              a#bullet2 Interactive eTextbooks          
+              a#bullet3 360° Collaboration
+              
+            .button Learn more
+            
+          .slider
+            #slide-wrapper
+              .slide#orion1
+                img(src='/files/products/orion1.jpg')
+                p Instructors see real-time performance data. An instant overview of student progress and proficiency helps pinpoint areas of strength and areas of concern.         
+
+              .slide#orion2
+                img(src='/files/products/orion2.png')
+                p Students get a contextualized and adaptive learning experience that helps them navigate texts, create and organize their study plan, and participate in lively discussions with their instructor and the entire class.  Instructors collaborate with one another on course content—sharing the best curriculums and methodologies in an open repository.         
+
+              .slide#orion3
+                img(src='/files/products/orion3.png')
+                p Students collaborate with their instructors and the entire class, which boosts student engagement and productivity.  Instructors can craft and share with their peers multi-faceted lesson plans that encourage students to showcase their ideas and thoughts while they learn.
+
+    section.product#edulastic
+        .container
+          .info
+            h1 Edulastic
+            span Adaptive learning is an educational method
+            hr 
+            .navigation      
+              a#bullet1-2.active Interactive Questions
+              a#bullet2-2 Actionable Data          
+              a#bullet3-2 Expert Assessments
+              
+            .button Learn more
+            
+          .slider
+            #slide-wrapper2
+              .slide#orion1
+                img(src='/files/products/edulastic1.gif')
+                p Easily create your own PARCC and SBAC-like questions using more than 30 interactive question types, such as drag and drop, graphing, passage-based and mutipart questions.
+              .slide#orion2
+                img(src='/files/products/edulastic2.png')
+                p Instant scoring saves grading time so you can monitor struggling students, make the right remediation moves and measure growth toward CCSS-mastery throughout the year.
+              .slide#orion3
+                img(src='/files/products/edulastic3.png')
+                p Choose from our bank of more than 2,000 pre-built assessments, created by Edulastic experts and well-known publishers, or create your own and share with other teachers in your school or district.                    
+    section#partners
+      .container
+        .line
+        h3 Partners
+        .line
+        .logos
+          .partner#willey
+          .partner#barrons
+          .partner#dummies
+          .partner#mcgraw
+        
+    section#company
+        .container.white-bg
+          h3 Company
+          p At Snapwiz, we celebrate the fact that every learner is different, so we create and deliver personalized learning experiences. Our platforms make it possible for educators to craft custom learning paths, backed up by data science, that account for each student’s strengths and weaknesses. <br><br> Founded in 2010, Snapwiz has grown to more than 100 employees in its Fremont, CA and Bangalore, India offices.
+          img(src='/files/company/company1.jpg')
+          
+    section#jobs
+        .container
+          .line
+          h3 Work with us
+          .line
+          ul
+            li Be in the forefront of the most innovative technology
+            li Work with a passionate team with all kinds of interesting experience
+            li Free lunches every day and weekends if you decide to work
+            li Flexible work timings allow you to be happy and productive
+            li Extra care for new mommies and daddies with maternity and paternity benefits
+            li Plenty of learning, growth and development opportunities
+          .button Jobs
