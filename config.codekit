@@ -53,6 +53,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/files\/laptop.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35244,
+		"inputAbbreviatedPath": "\/files\/laptop.png",
+		"outputAbbreviatedPath": "\/files\/laptop.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/files\/logo-white.png": {
 		"fileType": 32768,
 		"ignore": 0,

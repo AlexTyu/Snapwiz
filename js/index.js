@@ -56,7 +56,6 @@ $(document ).on( "mousemove", function( event ) {
 
 $(window).scroll(function() {
   var scroll = $(window).scrollTop();
-
   $(".parallax-scroll-0").css('transform',  'translate3d(0px,' + 0 * scroll + 'px, 0px)');
   $(".parallax-scroll-1").css('transform',  'translate3d(0px,' + 0.1 * scroll + 'px, 0px)');
   $(".parallax-scroll-2").css('transform',  'translate3d(0px,' + 0.2 * scroll + 'px, 0px)');
@@ -68,5 +67,12 @@ $(window).scroll(function() {
   $(".parallax-scroll-8").css('transform',  'translate3d(0px,' + 0.8 * scroll + 'px, 0px)');
   $(".parallax-scroll-9").css('transform',  'translate3d(0px,' + 0.9 * scroll + 'px, 0px)');
   $(".parallax-scroll-10").css('transform',  'translate3d(0px,-' + 1 * scroll + 'px, 0px)');
+ });
 
+ $(document).on('touchstart click', '.nav.next', function(){
+   $('#products-slider').attr('class','state2');
+ });
+
+ $(document).on('touchstart click', '.nav.prev', function(){
+   $('#products-slider').attr('class','state1');
  });

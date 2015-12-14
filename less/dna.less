@@ -35,9 +35,11 @@
 	}
 
 	span.header{
-		font-size: 13px;
-    font-weight: 600;
-    opacity: 0.8;
+		font-size: 13px !important;
+    font-weight: 600 !important;
+    opacity: 0.8 !important;
+    font-family: "prometo", 'helvetica';
+    width: auto !important;
 	}
 
 	p{
@@ -101,6 +103,7 @@
       position: absolute;
       top: -5px;
       left: -@height;
+      transform-style: flat;
       &::before{
         content: '';
         width: 1px;

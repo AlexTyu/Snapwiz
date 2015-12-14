@@ -15,7 +15,7 @@ body{
   top: 0;
   left: 0;
   z-index: -1;
-  background-image: radial-gradient(circle, #009091, #064460);
+  background-image: radial-gradient(circle, #008097, #003851);
   //background-image: url('/files/pattern.png'), radial-gradient(circle, #019596, #065660);
 }
 
@@ -33,10 +33,11 @@ h1{
 }
 
 h3{
-  font-size: 24px;
-  font-weight: 300;
+  font-size: 20px;
+  font-weight: 400;
   margin: 0;
   font-family: "prometo", 'helvetica';
+  color: white;
 }
 
 h4{
@@ -98,7 +99,7 @@ p{
 ///Animations
 
 @-webkit-keyframes SlideInDown{
-	0%   { transform: translateY(-20px); opacity: 0;}
+	0%   { transform: translateY(20px); opacity: 0;}
 	100% { transform: translateY(0px); opacity: 1;}
 }
 
@@ -113,11 +114,8 @@ section{
 
 .container{
   width: 1100px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
   box-sizing: border-box;
-  padding: 0px;
+  padding: 0px 50px;
 
   &.white-bg{
     background: #FFFFFF;
@@ -127,7 +125,22 @@ section{
     background: rgba(0, 0, 0, 0.12);
     box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.17);
   }
+}
 
+.logo{
+  width: 160px;
+  height: 42px;
+  background: url('../files/logo-white.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 70px;
+  animation: SlideInDown 1s;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+  position: absolute;
+  top: 22px;
+  left: 26px;
 }
 
 header{
@@ -135,6 +148,7 @@ header{
   top: 0;
   width: 100%;
   z-index: 2;
+  display: none;
   .header-wrap{
     display: flex;
     justify-content: center;
@@ -144,6 +158,10 @@ header{
     padding: 10px 20px;
     flex-wrap: nowrap;
     border-bottom: 1px solid rgba(255, 255, 255, 0.23);
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
 
   }
   .logo{
@@ -167,7 +185,7 @@ header{
 
 
 .wrapper{
-  background: #F1F1F3;
+  //background: #F1F1F3;
   //background-image: url('/files/pattern.png');
   //background-size: 300px;
 }
@@ -190,45 +208,32 @@ header{
     padding-top: 100px;
   }
   .content{
-    animation: SlideInDown 1s;
+    h1{
+      animation: SlideInDown 1s;
+      animation-delay: 0s;
+      animation-fill-mode: both;
+    }
+
+    span.wrap{
+      animation: SlideInDown 1s;
+      animation-delay: 0.1s;
+      animation-fill-mode: both;
+    }
   }
-  span.subdescription{
-    opacity: 0.5;
+  span{
+    width: 600px;
+    display: block;
+    margin-top: 13px;
+    line-height: 26px;
+    font-size: 20px;
+    font-weight: 300;
+    opacity: 0.6;
   }
   .features{
     padding-top: 60px;
     display: flex;
   }
 }
-
-
-.products-link{
-  position: absolute;
-  bottom: 50px;
-  font-size: 20;
-  animation: SlideInDown 1s;
-  animation-delay: 0.6s;
-  animation-fill-mode: both;
-
-  &::before{
-    content: '';
-    width: 30px;
-    height: 20px;
-    display: block;
-    background: url('../files/arrow.svg');
-    background-repeat: no-repeat;
-    background-position: center;
-    float: left;
-    opacity: 0.2;
-    margin-right: 10px;
-  }
-}
-
-
-
-
-
-
 
 .feature{
   text-align: left;
@@ -261,9 +266,34 @@ header{
     animation-fill-mode: both;
   }
 
-
   p{
     opacity: 0.6;
+    margin-top: 3px;
+  }
+}
+
+
+.products-link{
+  position: absolute;
+  bottom: 50px;
+  font-size: 18px;
+  font-weight: 300;
+  animation: SlideInDown 1s;
+  animation-delay: 0.6s;
+  animation-fill-mode: both;
+  font-family: "prometo", 'helvetica';
+
+  &::before{
+    content: '';
+    width: 30px;
+    height: 20px;
+    display: block;
+    background: url('../files/arrow.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    opacity: 0.2;
+    margin-right: 10px;
   }
 }
 
@@ -273,9 +303,8 @@ header{
 
 
 #products{
+  display: none;
   .container{
-    display: flex;
-    justify-content: flex-start;
     padding-top: 100px;
     padding-bottom: 115px;
   }
@@ -284,20 +313,116 @@ header{
     flex: 100%;
     font-weight: 400;
   }
+  span{
+    width: 700px;
+    display: block;
+  }
 }
 
 
-#products-slider1{
+#products-slider{
   background: #17233D;
   background-size: 100%;
-  margin-top: 80px;
-  height: 650px;
+  height: 800px;
   width: 100%;
   position: relative;
   overflow: hidden;
-  .container{
-    padding: 0px 20px;
+  display: block;
+  transition: 0.3s ease;
+
+  .bg-1{
+    background-image: radial-gradient(circle, #AB7809, #B14B0C);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    transition: 0.3s ease;
   }
+
+  .bg-2{
+    background-image: radial-gradient(circle, #0A9CA1, #004F49);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    transition: 0.3s ease;
+  }
+
+  p{
+    font-size: 16px;
+    line-height: 25px;
+    width: 562px;
+    padding-left: 20px;
+    text-align: center;
+  }
+
+  .laptop{
+    width: 800px;
+    height: 700px;
+    left: -99px;
+    top: 0;
+    position: absolute;
+    background-image: url('/files/laptop.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .nav{
+    width: 50px;
+    height: 200px;
+    background: black;
+    top: 300px;
+    z-index: 10;
+    position: absolute;
+    transition: 0.3s ease;
+    &::before{
+      content: '';
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      background: url('/files/arrow.svg');
+      background-position: center;
+      background-repeat: no-repeat;
+      transform: rotate(-90deg);
+    }
+
+    &.next{right: 0;}
+    &.prev{left: 0; &::before{transform: rotate(90deg)}}
+  }
+
+  .slide-wrapper{
+    width: 200vw;
+    height: 600px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    transition: 1s cubic-bezier(0.96, -0.01, 0.11, 1);
+  }
+  .container{
+    margin: auto;
+  }
+}
+
+#products-slider.state1{
+  .bg-1{opacity: 1}
+  .bg-2{opacity: 0}
+  .slide-wrapper{transform: translateX(0);}
+  .nav.prev{transform: translateX(-50px);}
+
+}
+#products-slider.state2{
+  .bg-1{opacity: 0}
+  .bg-2{opacity: 1}
+  .slide-wrapper{transform: translateX(-100vw);}
+  .nav.next{transform: translateX(50px);}
 }
 
 
@@ -306,23 +431,24 @@ header{
   left: 0;
   right: 0;
   margin: auto;
-  width: 100%;
+  width: 100vw;
   height: 650px;
+  float: left;
   transition: 0.7s cubic-bezier(0.66, 0.13, 0.12, 0.99);
-
-  &#orion{}
-  &#edulastic{}
 
   .container{
     padding-top: 0;
   }
 
   .info{
-    width: 260px;
-    padding: 120px 20px;
+    width: 283px;
+    float: left;
+
     span{
-      opacity: 0.3;
+      opacity: 0.6;
+      padding-top: 20px;
       font-size: 20px;
+      display: block;
       font-weight: 300;
       line-height: 22.39px;
     }
@@ -364,34 +490,54 @@ header{
 }
 
 #orion{
-  background: #393939;
+
 }
 
 #edulastic{
-  background: #515252;
+
 }
 
 .slider{
-  width: 681px;
+  width: 662px;
   height: 550px;
   position: relative;
-  overflow: hidden;
-  padding-top: 88px;
+  padding-top: 39px;
+  float: right;
+
   #slide-wrapper{
     transition: 0.3s ease;
   }
   #slide-wrapper2{
     transition: 0.3s ease;
   }
-  .slide1{transform: translate3d(0px, 0px, 0px)}
-  .slide2{transform: translate3d(0px, -550px, 0px)}
-  .slide3{transform: translate3d(0px, -1140px, 0px)}
+
+  #orion1{opacity: 1;}
+  #orion2{opacity: 0;}
+  #orion3{opacity: 0;}
+
+  .slide1{transform: translate3d(0px, 0px, 0px);
+    #orion1{opacity: 1;}
+    #orion2{opacity: 0;}
+    #orion3{opacity: 0;}
+  }
+  .slide2{transform: translate3d(0px, -550px, 0px);
+    #orion1{opacity: 0;}
+    #orion2{opacity: 1;}
+    #orion3{opacity: 0;}
+  }
+  .slide3{transform: translate3d(0px, -1110px, 0px);
+    #orion1{opacity: 0;}
+    #orion2{opacity: 0;}
+    #orion3{opacity: 1;}
+  }
   .slide{
     height: 100%;
+    transition: 0.3s ease;
     img{
       width: 600px;
       display: block;
       border-radius: 8px;
+      margin-bottom: 80px;
     }
   }
 }
@@ -430,6 +576,7 @@ header{
 }
 
 #company{
+  padding-top: 150px;
   .container{
     display: block;
     position: relative;
