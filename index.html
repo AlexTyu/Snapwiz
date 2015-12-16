@@ -7,6 +7,16 @@
   <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
   <script src="js/index.js"></script>
   <script src="https://use.typekit.net/qkh7oqo.js"></script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    
+    ga('create', 'UA-6168218-1', 'auto');
+    ga('send', 'pageview');
+    
+  </script>
   <script>try{Typekit.load({ async: true });}catch(e){}</script>
   <link rel="stylesheet" href="css/style.css"/>
 </head>
@@ -83,7 +93,7 @@
         </div>
       </div>
       <div class="content">
-        <h1>Personalized Learning <br>Powered by Science</h1><span class="wrap"><span>We're develop and implement tools that evolve educational methods. Based on user understanding and communication. Powered by machine learning and data science.</span></span>
+        <h1>Personalized Learning <br>Powered by Science</h1><span class="wrap"><span class="subtext">We're develop and implement tools that evolve educational methods. Based on user understanding and communication. Powered by machine learning and data science.</span></span>
       </div>
       <div class="features">
         <div class="feature first">
@@ -101,13 +111,14 @@
           <h3>Professional</h3>
           <p>Building upon prior knowledge <br>supports retention</p>
         </div>
-      </div><span class="products-link">Our products</span>
+      </div>
+      <h3 class="products-link">Our products</h3>
     </div>
   </section>
   <div class="wrapper">     
     <section id="products">
       <div class="container">
-        <h3>Products</h3><span class="subdescription">Snapwiz learning platforms help K-20 educators deliver personalized instruction, gauge student understanding and communicate more effectively with students and parents.</span>
+        <h3>Products</h3><span class="subtext">Snapwiz learning platforms help K-20 educators deliver personalized instruction, gauge student understanding and communicate more effectively with students and parents.</span>
       </div>
     </section>
     <section id="products-slider" class="state1">
@@ -120,8 +131,11 @@
           <div class="container">
             <div class="info">
               <h1>Learning spaces</h1><span>Helps K-20 educators deliver personalized instruction, gauge student understanding and communicate more effectively with students and parents.</span>
-              <div class="navigation">     <a id="bullet1" class="active">Intuitive Analytics</a><a id="bullet2">Interactive eTextbooks          </a><a id="bullet3">360° Collaboration</a></div>
-              <div class="button">Learn more</div>
+              <div class="navigation">     <a> 
+                  <h3 id="bullet1" class="active">Intuitive Analytics</h3></a><a> 
+                  <h3 id="bullet2">Interactive eTextbooks          </h3></a><a> 
+                  <h3 id="bullet3">360° Collaboration</h3></a></div>
+              <button onclick="ga('send', 'event', { eventCategory: 'Learn More Button', eventAction: 'Click', eventLabel: 'LS Learn More Button'});">Learn more</button>
             </div>
             <div class="slider">
               <div class="laptop"></div>
@@ -144,8 +158,11 @@
             <div class="info">
               <h1>Edulastic</h1><span>Adaptive learning is an educational method</span>
               <hr/>
-              <div class="navigation">     <a id="bullet1-2" class="active">Interactive Questions</a><a id="bullet2-2">Actionable Data          </a><a id="bullet3-2">Expert Assessments</a></div>
-              <div class="button">Learn more</div>
+              <div class="navigation">     <a>
+                  <h3 id="bullet1-2" class="active">Interactive Questions</h3></a><a>
+                  <h3 id="bullet2-2">Actionable Data          </h3></a><a>
+                  <h3 id="bullet3-2">Expert Assessments</h3></a></div>
+              <button onclick="ga('send', 'event', { eventCategory: 'Learn More Button', eventAction: 'Click', eventLabel: 'Edulastic Learn More Button'});">Learn more</button>
             </div>
             <div class="slider">
               <div class="laptop"></div>
@@ -167,13 +184,13 @@
     </section>
     <section id="company">
       <div class="container">
-        <h3>Company</h3>
+        <h1>Company</h1>
         <p>At Snapwiz, we celebrate the fact that every learner is different, so we create and deliver personalized learning experiences. Our platforms make it possible for educators to craft custom learning paths, backed up by data science, that account for each student’s strengths and weaknesses. <br><br> Founded in 2010, Snapwiz has grown to more than 100 employees in its Fremont, CA and Bangalore, India offices.</p><img src="./files/company/company1.jpg"/>
       </div>
     </section>
     <section id="partners">
       <div class="container">
-        <h3>Partners</h3>
+        <h1>Partners</h1>
         <div class="logos">
           <div id="willey" class="partner"></div>
           <div id="barrons" class="partner"></div>
@@ -184,7 +201,7 @@
     </section>
     <section id="jobs">
       <div class="container">
-        <h3>Work with us</h3>
+        <h1>Work with us</h1>
         <ul>
           <li>Be in the forefront of the most innovative technology</li>
           <li>Work with a passionate team with all kinds of interesting experience</li>
@@ -193,7 +210,7 @@
           <li>Extra care for new mommies and daddies with maternity and paternity benefits</li>
           <li>Plenty of learning, growth and development opportunities</li>
         </ul>
-        <div class="button">Jobs</div>
+        <button onclick="ga('send', 'event', { eventCategory: 'CTA Button', eventAction: 'Click', eventLabel: 'Find Jobs Button'});">Jobs</button>
       </div>
     </section>
   </div>

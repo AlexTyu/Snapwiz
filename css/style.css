@@ -87,51 +87,51 @@ body {
 }
 .dna .protein:nth-of-type( 50) {
   animation-delay: 2.5s;
-  background: linear-gradient(to right, #4eceb9 50%, #0dc9ed 50%);
+  background: linear-gradient(to right, #00ff00 50%, #4eceb9 50%);
 }
 .dna .protein:nth-of-type( 49) {
   animation-delay: 2.25s;
-  background: linear-gradient(to right, #0dc9ed 50%, #4eceb9 50%);
+  background: linear-gradient(to right, #4eceb9 50%, #4eceb9 50%);
 }
 .dna .protein:nth-of-type( 48) {
   animation-delay: 2s;
-  background: linear-gradient(to right, #4eceb9 50%, #00ff00 50%);
+  background: linear-gradient(to right, #4eceb9 50%, #0dc9ed 50%);
 }
 .dna .protein:nth-of-type( 47) {
   animation-delay: 1.75s;
-  background: linear-gradient(to right, #0dc9ed 50%, #00ff00 50%);
+  background: linear-gradient(to right, #0dc9ed 50%, #0dc9ed 50%);
 }
 .dna .protein:nth-of-type( 46) {
   animation-delay: 1.5s;
-  background: linear-gradient(to right, #00ff00 50%, #0dc9ed 50%);
+  background: linear-gradient(to right, #acce4c 50%, #4eceb9 50%);
 }
 .dna .protein:nth-of-type( 45) {
   animation-delay: 1.25s;
-  background: linear-gradient(to right, #00ff00 50%, #acce4c 50%);
+  background: linear-gradient(to right, #0dc9ed 50%, #0dc9ed 50%);
 }
 .dna .protein:nth-of-type( 44) {
   animation-delay: 1s;
-  background: linear-gradient(to right, #0dc9ed 50%, #acce4c 50%);
+  background: linear-gradient(to right, #4eceb9 50%, #0dc9ed 50%);
 }
 .dna .protein:nth-of-type( 43) {
   animation-delay: 0.75s;
-  background: linear-gradient(to right, #4eceb9 50%, #00ff00 50%);
+  background: linear-gradient(to right, #00ff00 50%, #0dc9ed 50%);
 }
 .dna .protein:nth-of-type( 42) {
   animation-delay: 0.5s;
-  background: linear-gradient(to right, #0dc9ed 50%, #4eceb9 50%);
+  background: linear-gradient(to right, #00ff00 50%, #4eceb9 50%);
 }
 .dna .protein:nth-of-type( 41) {
   animation-delay: 0.25s;
-  background: linear-gradient(to right, #acce4c 50%, #acce4c 50%);
+  background: linear-gradient(to right, #acce4c 50%, #0dc9ed 50%);
 }
 .dna .protein:nth-of-type( 40) {
   animation-delay: 0s;
-  background: linear-gradient(to right, #4eceb9 50%, #acce4c 50%);
+  background: linear-gradient(to right, #acce4c 50%, #00ff00 50%);
 }
 .dna .protein:nth-of-type( 39) {
   animation-delay: -0.25s;
-  background: linear-gradient(to right, #0dc9ed 50%, #00ff00 50%);
+  background: linear-gradient(to right, #00ff00 50%, #00ff00 50%);
 }
 .dna .protein:nth-of-type( 38) {
   animation-delay: -0.5s;
@@ -139,11 +139,11 @@ body {
 }
 .dna .protein:nth-of-type( 37) {
   animation-delay: -0.75s;
-  background: linear-gradient(to right, #00ff00 50%, #00ff00 50%);
+  background: linear-gradient(to right, #acce4c 50%, #4eceb9 50%);
 }
 .dna .protein:nth-of-type( 36) {
   animation-delay: -1s;
-  background: linear-gradient(to right, #00ff00 50%, #00ff00 50%);
+  background: linear-gradient(to right, #4eceb9 50%, #00ff00 50%);
 }
 .dna .protein:nth-of-type( 35) {
   animation-delay: -1.25s;
@@ -151,139 +151,139 @@ body {
 }
 .dna .protein:nth-of-type( 34) {
   animation-delay: -1.5s;
-  background: linear-gradient(to right, #00ff00 50%, #00ff00 50%);
+  background: linear-gradient(to right, #0dc9ed 50%, #0dc9ed 50%);
 }
 .dna .protein:nth-of-type( 33) {
   animation-delay: -1.75s;
-  background: linear-gradient(to right, #00ff00 50%, #00ff00 50%);
+  background: linear-gradient(to right, #0dc9ed 50%, #0dc9ed 50%);
 }
 .dna .protein:nth-of-type( 32) {
   animation-delay: -2s;
-  background: linear-gradient(to right, #00ff00 50%, #0dc9ed 50%);
+  background: linear-gradient(to right, #0dc9ed 50%, #4eceb9 50%);
 }
 .dna .protein:nth-of-type( 31) {
   animation-delay: -2.25s;
-  background: linear-gradient(to right, #4eceb9 50%, #4eceb9 50%);
+  background: linear-gradient(to right, #00ff00 50%, #4eceb9 50%);
 }
 .dna .protein:nth-of-type( 30) {
   animation-delay: -2.5s;
-  background: linear-gradient(to right, #4eceb9 50%, #4eceb9 50%);
+  background: linear-gradient(to right, #4eceb9 50%, #acce4c 50%);
 }
 .dna .protein:nth-of-type( 29) {
   animation-delay: -2.75s;
-  background: linear-gradient(to right, #acce4c 50%, #acce4c 50%);
+  background: linear-gradient(to right, #0dc9ed 50%, #0dc9ed 50%);
 }
 .dna .protein:nth-of-type( 28) {
   animation-delay: -3s;
-  background: linear-gradient(to right, #4eceb9 50%, #acce4c 50%);
+  background: linear-gradient(to right, #00ff00 50%, #acce4c 50%);
 }
 .dna .protein:nth-of-type( 27) {
   animation-delay: -3.25s;
-  background: linear-gradient(to right, #0dc9ed 50%, #0dc9ed 50%);
+  background: linear-gradient(to right, #0dc9ed 50%, #4eceb9 50%);
 }
 .dna .protein:nth-of-type( 26) {
   animation-delay: -3.5s;
-  background: linear-gradient(to right, #acce4c 50%, #00ff00 50%);
+  background: linear-gradient(to right, #4eceb9 50%, #acce4c 50%);
 }
 .dna .protein:nth-of-type( 25) {
   animation-delay: -3.75s;
-  background: linear-gradient(to right, #00ff00 50%, #00ff00 50%);
+  background: linear-gradient(to right, #4eceb9 50%, #0dc9ed 50%);
 }
 .dna .protein:nth-of-type( 24) {
   animation-delay: -4s;
-  background: linear-gradient(to right, #00ff00 50%, #00ff00 50%);
+  background: linear-gradient(to right, #4eceb9 50%, #4eceb9 50%);
 }
 .dna .protein:nth-of-type( 23) {
   animation-delay: -4.25s;
-  background: linear-gradient(to right, #acce4c 50%, #4eceb9 50%);
+  background: linear-gradient(to right, #4eceb9 50%, #00ff00 50%);
 }
 .dna .protein:nth-of-type( 22) {
   animation-delay: -4.5s;
-  background: linear-gradient(to right, #00ff00 50%, #00ff00 50%);
+  background: linear-gradient(to right, #0dc9ed 50%, #0dc9ed 50%);
 }
 .dna .protein:nth-of-type( 21) {
   animation-delay: -4.75s;
-  background: linear-gradient(to right, #acce4c 50%, #00ff00 50%);
+  background: linear-gradient(to right, #4eceb9 50%, #acce4c 50%);
 }
 .dna .protein:nth-of-type( 20) {
   animation-delay: -5s;
-  background: linear-gradient(to right, #00ff00 50%, #00ff00 50%);
+  background: linear-gradient(to right, #00ff00 50%, #0dc9ed 50%);
 }
 .dna .protein:nth-of-type( 19) {
   animation-delay: -5.25s;
-  background: linear-gradient(to right, #4eceb9 50%, #acce4c 50%);
+  background: linear-gradient(to right, #acce4c 50%, #00ff00 50%);
 }
 .dna .protein:nth-of-type( 18) {
   animation-delay: -5.5s;
-  background: linear-gradient(to right, #4eceb9 50%, #0dc9ed 50%);
+  background: linear-gradient(to right, #acce4c 50%, #4eceb9 50%);
 }
 .dna .protein:nth-of-type( 17) {
   animation-delay: -5.75s;
-  background: linear-gradient(to right, #4eceb9 50%, #0dc9ed 50%);
+  background: linear-gradient(to right, #00ff00 50%, #00ff00 50%);
 }
 .dna .protein:nth-of-type( 16) {
   animation-delay: -6s;
-  background: linear-gradient(to right, #0dc9ed 50%, #00ff00 50%);
+  background: linear-gradient(to right, #acce4c 50%, #acce4c 50%);
 }
 .dna .protein:nth-of-type( 15) {
   animation-delay: -6.25s;
-  background: linear-gradient(to right, #acce4c 50%, #acce4c 50%);
+  background: linear-gradient(to right, #00ff00 50%, #acce4c 50%);
 }
 .dna .protein:nth-of-type( 14) {
   animation-delay: -6.5s;
-  background: linear-gradient(to right, #4eceb9 50%, #00ff00 50%);
+  background: linear-gradient(to right, #acce4c 50%, #acce4c 50%);
 }
 .dna .protein:nth-of-type( 13) {
   animation-delay: -6.75s;
-  background: linear-gradient(to right, #4eceb9 50%, #0dc9ed 50%);
+  background: linear-gradient(to right, #4eceb9 50%, #acce4c 50%);
 }
 .dna .protein:nth-of-type( 12) {
   animation-delay: -7s;
-  background: linear-gradient(to right, #acce4c 50%, #acce4c 50%);
+  background: linear-gradient(to right, #0dc9ed 50%, #00ff00 50%);
 }
 .dna .protein:nth-of-type( 11) {
   animation-delay: -7.25s;
-  background: linear-gradient(to right, #00ff00 50%, #4eceb9 50%);
+  background: linear-gradient(to right, #0dc9ed 50%, #00ff00 50%);
 }
 .dna .protein:nth-of-type( 10) {
   animation-delay: -7.5s;
-  background: linear-gradient(to right, #acce4c 50%, #4eceb9 50%);
+  background: linear-gradient(to right, #4eceb9 50%, #4eceb9 50%);
 }
 .dna .protein:nth-of-type( 9) {
   animation-delay: -7.75s;
-  background: linear-gradient(to right, #acce4c 50%, #00ff00 50%);
+  background: linear-gradient(to right, #4eceb9 50%, #0dc9ed 50%);
 }
 .dna .protein:nth-of-type( 8) {
   animation-delay: -8s;
-  background: linear-gradient(to right, #acce4c 50%, #acce4c 50%);
+  background: linear-gradient(to right, #00ff00 50%, #4eceb9 50%);
 }
 .dna .protein:nth-of-type( 7) {
   animation-delay: -8.25s;
-  background: linear-gradient(to right, #acce4c 50%, #0dc9ed 50%);
+  background: linear-gradient(to right, #00ff00 50%, #0dc9ed 50%);
 }
 .dna .protein:nth-of-type( 6) {
   animation-delay: -8.5s;
-  background: linear-gradient(to right, #00ff00 50%, #acce4c 50%);
+  background: linear-gradient(to right, #4eceb9 50%, #0dc9ed 50%);
 }
 .dna .protein:nth-of-type( 5) {
   animation-delay: -8.75s;
-  background: linear-gradient(to right, #00ff00 50%, #4eceb9 50%);
+  background: linear-gradient(to right, #00ff00 50%, #00ff00 50%);
 }
 .dna .protein:nth-of-type( 4) {
   animation-delay: -9s;
-  background: linear-gradient(to right, #0dc9ed 50%, #4eceb9 50%);
+  background: linear-gradient(to right, #00ff00 50%, #acce4c 50%);
 }
 .dna .protein:nth-of-type( 3) {
   animation-delay: -9.25s;
-  background: linear-gradient(to right, #0dc9ed 50%, #4eceb9 50%);
+  background: linear-gradient(to right, #0dc9ed 50%, #00ff00 50%);
 }
 .dna .protein:nth-of-type( 2) {
   animation-delay: -9.5s;
-  background: linear-gradient(to right, #4eceb9 50%, #4eceb9 50%);
+  background: linear-gradient(to right, #4eceb9 50%, #00ff00 50%);
 }
 .dna .protein:nth-of-type( 1) {
   animation-delay: -9.75s;
-  background: linear-gradient(to right, #00ff00 50%, #0dc9ed 50%);
+  background: linear-gradient(to right, #00ff00 50%, #00ff00 50%);
 }
 .dna .protein b {
   width: 10px;
@@ -335,7 +335,6 @@ h3 {
   font-weight: 400;
   margin: 0;
   font-family: "prometo", 'helvetica';
-  color: white;
 }
 h4 {
   font-size: 20px;
@@ -352,30 +351,35 @@ canvas {
   left: 0;
   top: 0;
 }
-span.subdescription {
-  font-size: 23px;
-  letter-spacing: 0.2px;
-  line-height: 30.39px;
-  font-weight: 100;
-  margin-top: 20px;
-  max-width: 700px;
+span.subtext {
+  width: 600px;
+  display: block;
+  margin-top: 13px;
+  line-height: 26px;
+  font-size: 20px;
+  font-weight: 300;
+  opacity: 0.6;
 }
 p {
   font-size: 14px;
   line-height: 19px;
+  letter-spacing: 0.7px;
 }
-.button {
+button {
   display: block;
   background: #509410;
   width: 200px;
-  line-height: 60px;
+  line-height: 50px;
   text-align: center;
   border-radius: 8px;
   font-weight: 400;
   transition: 0.3s ease;
   cursor: pointer;
+  border: 0;
+  color: white;
+  font-size: 16px;
 }
-.button:hover {
+button:hover {
   transform: scale(0.9);
 }
 .line {
@@ -464,6 +468,9 @@ header a {
   margin-left: 30px;
   color: white;
 }
+.wrapper {
+  background: #F1F1F3;
+}
 #intro {
   height: 100vh;
   min-height: 600px;
@@ -487,15 +494,6 @@ header a {
   animation: SlideInDown 1s;
   animation-delay: 0.1s;
   animation-fill-mode: both;
-}
-#intro span {
-  width: 600px;
-  display: block;
-  margin-top: 13px;
-  line-height: 26px;
-  font-size: 20px;
-  font-weight: 300;
-  opacity: 0.6;
 }
 #intro .features {
   padding-top: 60px;
@@ -535,8 +533,6 @@ header a {
 .products-link {
   position: absolute;
   bottom: 50px;
-  font-size: 18px;
-  font-weight: 300;
   animation: SlideInDown 1s;
   animation-delay: 0.6s;
   animation-fill-mode: both;
@@ -580,7 +576,7 @@ header a {
   transition: 0.3s ease;
 }
 #products-slider .bg-1 {
-  background-image: radial-gradient(circle, #ab7809, #b14b0c);
+  background-image: radial-gradient(circle, #22282e, #21232c);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -700,6 +696,9 @@ header a {
   width: 283px;
   float: left;
 }
+.product .info .navigation {
+  padding-top: 30px;
+}
 .product .info span {
   opacity: 0.6;
   padding-top: 20px;
@@ -716,15 +715,11 @@ header a {
   margin: 23px 0;
   width: 240px;
 }
-.product .info a {
-  height: 60px;
-  font-size: 20px;
-  opacity: 0.5;
-  display: block;
-  transition: 0.3s ease;
-  line-height: 20px;
+.product .info h3 {
+  margin-bottom: 40px;
+  opacity: 0.6;
 }
-.product .info a::before {
+.product .info h3::before {
   content: '';
   display: block;
   width: 20px;
@@ -734,13 +729,13 @@ header a {
   float: left;
   margin-right: 10px;
 }
-.product .info a:hover {
+.product .info h3:hover {
   opacity: 1;
 }
-.product .info a.active {
+.product .info h3.active {
   opacity: 1;
 }
-.product .info a.active::before {
+.product .info h3.active::before {
   background: white;
 }
 .slider {
@@ -855,6 +850,7 @@ header a {
 }
 #company {
   padding-top: 150px;
+  height: 600px;
 }
 #company .container {
   display: block;
@@ -890,11 +886,10 @@ header a {
   display: block;
   width: 100%;
   height: 300px;
-  font-size: 20px;
-  text-align: center;
-  line-height: 40px;
-  list-style: none;
+  font-size: 13px;
+  line-height: 33px;
+  padding-left: 20px;
 }
-#jobs .button {
+#jobs button {
   color: white;
 }
