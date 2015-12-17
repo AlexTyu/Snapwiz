@@ -32,6 +32,7 @@ h1{
   font-family: "prometo", 'helvetica';
 }
 
+
 h3{
   font-size: 20px;
   font-weight: 400;
@@ -138,7 +139,6 @@ section{
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  margin-bottom: 70px;
   animation: SlideInDown 1s;
   animation-delay: 0s;
   animation-fill-mode: both;
@@ -147,12 +147,10 @@ section{
   left: 26px;
 }
 
-header{
-  position: absolute;
-  top: 0;
+.footer{
+  color: black;
   width: 100%;
   z-index: 2;
-  display: none;
   .header-wrap{
     display: flex;
     justify-content: center;
@@ -171,10 +169,12 @@ header{
   .logo{
     width: 160px;
     height: 42px;
-    background: url('../files/logo-white.png');
+    background: url('/files/logo.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    position: relative;
+    top: 0;
   }
   .menu{
     display: flex;
@@ -183,7 +183,7 @@ header{
   }
   a{
     margin-left: 30px;
-    color: white;
+    color: black;
   }
 }
 
@@ -203,10 +203,11 @@ header{
   min-height: 600px;
   display: flex;
   align-items: center;
-  color: white;
+  color: ;
   overflow: hidden;
   position: relative;
   text-align: left;
+  color: white;
   .container{
     flex-direction: column;
     padding-top: 100px;
@@ -230,42 +231,7 @@ header{
   }
 }
 
-.feature{
-  text-align: left;
-  padding-right: 20px;
-  border-right: 1px solid rgba(255, 255, 255, 0.18);
 
-  img{
-    width: 60px;
-    opacity: 0.7;
-    padding-bottom: 28px;
-  }
-
-  &.first{
-    animation: SlideInDown 1s;
-    animation-delay: 0.3s;
-    animation-fill-mode: both;
-  }
-
-  &.second{
-    padding-left: 40px;
-    animation: SlideInDown 1s;
-    animation-delay: 0.4s;
-    animation-fill-mode: both;
-  }
-
-  &.third{
-    padding-left: 40px;
-    animation: SlideInDown 1s;
-    animation-delay: 0.5s;
-    animation-fill-mode: both;
-  }
-
-  p{
-    opacity: 0.6;
-    margin-top: 3px;
-  }
-}
 
 
 .products-link{
@@ -296,9 +262,15 @@ header{
 
 
 #products{
-  display: none;
+  height: 700px;
+  text-align: center;
+
+  span.subtext{
+    margin: auto;
+    padding-top: 30px;
+  }
   .container{
-    padding-top: 100px;
+    padding-top: 160px;
     padding-bottom: 115px;
   }
 
@@ -310,22 +282,71 @@ header{
     width: 700px;
     display: block;
   }
+
+  .features{
+    margin: auto;
+    width: 773px;
+    padding-top: 100px;
+  }
+  .feature{
+    text-align: center;
+    padding-right: 20px;
+    float: left;
+    border-right: 1px solid rgba(0, 0, 0, 0.18);
+
+    img{
+      width: 60px;
+      opacity: 0.7;
+      padding-bottom: 28px;
+    }
+
+    &.first{
+      animation: SlideInDown 1s;
+      animation-delay: 0.3s;
+      animation-fill-mode: both;
+    }
+
+    &.second{
+      padding-left: 40px;
+      animation: SlideInDown 1s;
+      animation-delay: 0.4s;
+      animation-fill-mode: both;
+    }
+
+    &.third{
+      padding-left: 40px;
+      animation: SlideInDown 1s;
+      animation-delay: 0.5s;
+      animation-fill-mode: both;
+    }
+
+    p{
+      opacity: 0.6;
+      margin-top: 3px;
+    }
+  }
 }
 
 
 #products-slider{
-  background: #17233D;
   background-size: 100%;
-  height: 800px;
+  height: 100vh;
+  min-height: 700px;
   width: 100%;
   position: relative;
   overflow: hidden;
   display: block;
   transition: 0.3s ease;
 
+  h1, h2, h3{
+    font-family: 'helvetica';
+  }
+
   .bg-1{
-    background-image: radial-gradient(circle, #22282E, #21232C);
-    //background: white;
+
+    background: #9F4E08;
+    //background: url('/files/sliderbg.jpg');
+    background-size: cover;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -335,7 +356,7 @@ header{
   }
 
   .bg-2{
-    background-image: radial-gradient(circle, #0A9CA1, #004F49);
+    background: #169E99;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -357,8 +378,9 @@ header{
     height: 700px;
     left: -99px;
     top: 0;
+    z-index: 2;
     position: absolute;
-    background-image: url('/files/laptop.png');
+    background-image: url('/files/laptop-full.png');
     background-size: contain;
     background-repeat: no-repeat;
   }
@@ -367,7 +389,9 @@ header{
     width: 50px;
     height: 200px;
     background: black;
-    top: 300px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
     z-index: 10;
     position: absolute;
     transition: 0.3s ease;
@@ -393,7 +417,7 @@ header{
 
   .slide-wrapper{
     width: 200vw;
-    height: 600px;
+    height: 550px;
     margin: auto;
     top: 0;
     bottom: 0;
@@ -402,6 +426,7 @@ header{
   }
   .container{
     margin: auto;
+    height: 100%;
   }
 }
 
@@ -421,17 +446,14 @@ header{
 
 
 .product{
-  color: white;
   left: 0;
   right: 0;
   margin: auto;
   width: 100vw;
-  height: 650px;
+  height: 550px;
   float: left;
-  transition: 0.7s cubic-bezier(0.66, 0.13, 0.12, 0.99);
 
   .container{
-    padding-top: 0;
   }
 
   .info{
@@ -484,11 +506,14 @@ header{
 }
 
 #orion{
-  //color: black;
+  color: white;
 }
 
 #edulastic{
-
+  color: white;
+  .container{
+    background: transparent;
+  }
 }
 
 .slider{
@@ -528,9 +553,10 @@ header{
     height: 100%;
     transition: 0.3s ease;
     img{
-      width: 600px;
+      width: 554px;
+      margin-left: 26px;
+      margin-top: 8px;
       display: block;
-      border-radius: 8px;
       margin-bottom: 80px;
     }
   }
@@ -539,6 +565,11 @@ header{
 
 #partners{
     padding-top: 100px;
+    padding-bottom: 100px;
+    h1{
+      width: 100%;
+      text-align: center;
+    }
     .container{
       display: flex;
       align-items: center;
@@ -595,6 +626,10 @@ header{
 
 #jobs{
   padding-top: 100px;
+  h1{
+    width: 100%;
+    text-align: center;
+  }
   .container{
     display: flex;
     align-items: center;
@@ -607,13 +642,20 @@ header{
   ul{
     display: block;
     width: 100%;
-    height: 300px;
-    font-size: 13px;
+    height: 250px;
+    font-size: 16px;
     line-height: 33px;
     padding-left: 20px;
+    text-align: center;
+    list-style-type: none;
+    padding-top: 22px;
+    font-weight: 100;
   }
 
   button{
     color: white;
+    left: 0;
+    right: 0;
+    margin: auto;
   }
 }

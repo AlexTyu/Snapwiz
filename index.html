@@ -19,16 +19,9 @@
   </script>
   <script>try{Typekit.load({ async: true });}catch(e){}</script>
   <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet prefetch" href="css/timeline.css"/>
 </head>
 <body>
-  <header>
-    <div class="header-wrap">
-      <div class="container">
-        <div class="logo"></div>
-        <div class="menu"><a>Products</a><a>Partners</a><a>Company</a><a>Jobs</a></div>
-      </div>
-    </div>
-  </header>
   <div class="background"></div>
   <section id="intro">
     <div class="container">
@@ -95,30 +88,30 @@
       <div class="content">
         <h1>Personalized Learning <br>Powered by Science</h1><span class="wrap"><span class="subtext">We're develop and implement tools that evolve educational methods. Based on user understanding and communication. Powered by machine learning and data science.</span></span>
       </div>
-      <div class="features">
-        <div class="feature first">
-          <!--img(src="/files/inspired.svg")-->
-          <h3>K-20</h3>
-          <p>When material is relevant, <br>students pursue learning.</p>
-        </div>
-        <div class="feature second">
-          <!--img(src="/files/intelligent.svg")-->
-          <h3>University</h3>
-          <p>Sophisticated algorithms pinpoint <br> the right areas of focus</p>
-        </div>
-        <div style="border: none;" class="feature third">
-          <!--img(src="/files/impactfull.svg")-->
-          <h3>Professional</h3>
-          <p>Building upon prior knowledge <br>supports retention</p>
-        </div>
-      </div>
       <h3 class="products-link">Our products</h3>
     </div>
   </section>
   <div class="wrapper">     
     <section id="products">
       <div class="container">
-        <h3>Products</h3><span class="subtext">Snapwiz learning platforms help K-20 educators deliver personalized instruction, gauge student understanding and communicate more effectively with students and parents.</span>
+        <h1>Our Products</h1><span class="subtext">Snapwiz learning platforms help K-20 educators deliver personalized instruction, gauge student understanding and communicate more effectively with students and parents.</span>
+        <div class="features">
+          <div class="feature first">
+            <!--img(src="/files/inspired.svg")-->
+            <h3>K-20</h3>
+            <p>When material is relevant, <br>students pursue learning.</p>
+          </div>
+          <div class="feature second">
+            <!--img(src="/files/intelligent.svg")-->
+            <h3>University</h3>
+            <p>Sophisticated algorithms pinpoint <br> the right areas of focus</p>
+          </div>
+          <div style="border: none;" class="feature third">
+            <!--img(src="/files/impactfull.svg")-->
+            <h3>Professional</h3>
+            <p>Building upon prior knowledge <br>supports retention    </p>
+          </div>
+        </div>
       </div>
     </section>
     <section id="products-slider" class="state1">
@@ -182,12 +175,6 @@
         </div>
       </div>
     </section>
-    <section id="company">
-      <div class="container">
-        <h1>Company</h1>
-        <p>At Snapwiz, we celebrate the fact that every learner is different, so we create and deliver personalized learning experiences. Our platforms make it possible for educators to craft custom learning paths, backed up by data science, that account for each student’s strengths and weaknesses. <br><br> Founded in 2010, Snapwiz has grown to more than 100 employees in its Fremont, CA and Bangalore, India offices.</p><img src="./files/company/company1.jpg"/>
-      </div>
-    </section>
     <section id="partners">
       <div class="container">
         <h1>Partners</h1>
@@ -199,9 +186,12 @@
         </div>
       </div>
     </section>
+    <div id="my-timeline"></div>
+    <script src="http://cdn.knightlab.com/libs/timeline/latest/js/storyjs-embed.js"></script>
+    <script src="js/timeline.js"></script>
     <section id="jobs">
       <div class="container">
-        <h1>Work with us</h1>
+        <h1>We are hiring</h1>
         <ul>
           <li>Be in the forefront of the most innovative technology</li>
           <li>Work with a passionate team with all kinds of interesting experience</li>
@@ -213,5 +203,13 @@
         <button onclick="ga('send', 'event', { eventCategory: 'CTA Button', eventAction: 'Click', eventLabel: 'Find Jobs Button'});">Jobs</button>
       </div>
     </section>
+    <div class="footer">
+      <div class="header-wrap">
+        <div class="container">
+          <div class="logo"></div>
+          <div class="menu"><a>Products</a><a>Partners</a><a>Company</a><a>Jobs</a></div>
+        </div>
+      </div>
+    </div>
   </div>
 </body>

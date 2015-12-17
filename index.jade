@@ -18,18 +18,11 @@ head
   script.
     try{Typekit.load({ async: true });}catch(e){}
   link(rel='stylesheet', href='css/style.css')
+  link(rel='stylesheet prefetch', href='css/timeline.css')
+
 
 body
-  header
-    .header-wrap
-      .container
-        .logo
-        .menu
-          a Products
-          a Partners
-          a Company
-          a Jobs
-    
+
   .background
   section#intro
     .container
@@ -52,30 +45,29 @@ body
         span.wrap
           span.subtext We're develop and implement tools that evolve educational methods. Based on user understanding and communication. Powered by machine learning and data science.
       
-      .features
-        .feature.first
-          //img(src="/files/inspired.svg")
-          h3 K-20
-          p When material is relevant, <br>students pursue learning.
-        
-        .feature.second
-          //img(src="/files/intelligent.svg")
-          h3 University
-          p Sophisticated algorithms pinpoint <br> the right areas of focus
-          
-        .feature.third(style="border: none;")
-          //img(src="/files/impactfull.svg")
-          h3 Professional
-          p Building upon prior knowledge <br>supports retention
           
       h3.products-link Our products
   .wrapper      
             
     section#products
       .container
-          h3 Products
-          span.subtext Snapwiz learning platforms help K-20 educators deliver personalized instruction, gauge student understanding and communicate more effectively with students and parents.
+        h1 Our Products
+        span.subtext Snapwiz learning platforms help K-20 educators deliver personalized instruction, gauge student understanding and communicate more effectively with students and parents.
+        .features
+          .feature.first
+            //img(src="/files/inspired.svg")
+            h3 K-20
+            p When material is relevant, <br>students pursue learning.
           
+          .feature.second
+            //img(src="/files/intelligent.svg")
+            h3 University
+            p Sophisticated algorithms pinpoint <br> the right areas of focus
+            
+          .feature.third(style="border: none;")
+            //img(src="/files/impactfull.svg")
+            h3 Professional
+            p Building upon prior knowledge <br>supports retention    
     section#products-slider.state1
       .nav.next
       .nav.prev
@@ -141,13 +133,6 @@ body
                   img(src='./files/products/edulastic3.png')
                   p Choose from our bank of more than 2,000 pre-built assessments, created by Edulastic experts and well-known publishers, or create your own and share with other teachers in your school or district.                    
     
-      
-    section#company
-        .container
-          h1 Company
-          p At Snapwiz, we celebrate the fact that every learner is different, so we create and deliver personalized learning experiences. Our platforms make it possible for educators to craft custom learning paths, backed up by data science, that account for each student’s strengths and weaknesses. <br><br> Founded in 2010, Snapwiz has grown to more than 100 employees in its Fremont, CA and Bangalore, India offices.
-          img(src='./files/company/company1.jpg')
-          
     section#partners
       .container
         h1 Partners
@@ -157,9 +142,15 @@ body
           .partner#dummies
           .partner#mcgraw
           
+    #my-timeline
+    script(src='http://cdn.knightlab.com/libs/timeline/latest/js/storyjs-embed.js')
+    script(src='js/timeline.js')
+          
+
+          
     section#jobs
         .container
-          h1 Work with us
+          h1 We are hiring
           ul
             li Be in the forefront of the most innovative technology
             li Work with a passionate team with all kinds of interesting experience
@@ -168,3 +159,13 @@ body
             li Extra care for new mommies and daddies with maternity and paternity benefits
             li Plenty of learning, growth and development opportunities
           button(onclick="ga('send', 'event', { eventCategory: 'CTA Button', eventAction: 'Click', eventLabel: 'Find Jobs Button'});") Jobs
+
+    .footer
+      .header-wrap
+        .container
+          .logo
+          .menu
+            a Products
+            a Partners
+            a Company
+            a Jobs
