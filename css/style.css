@@ -87,103 +87,103 @@ body {
 }
 .dna .protein:nth-of-type( 50) {
   animation-delay: 2.5s;
-  background: linear-gradient(to right, #acce4c 50%, #acce4c 50%);
+  background: linear-gradient(to right, #00ff00 50%, #0dc9ed 50%);
 }
 .dna .protein:nth-of-type( 49) {
   animation-delay: 2.25s;
-  background: linear-gradient(to right, #acce4c 50%, #00ff00 50%);
+  background: linear-gradient(to right, #acce4c 50%, #acce4c 50%);
 }
 .dna .protein:nth-of-type( 48) {
   animation-delay: 2s;
-  background: linear-gradient(to right, #0dc9ed 50%, #0dc9ed 50%);
+  background: linear-gradient(to right, #4eceb9 50%, #4eceb9 50%);
 }
 .dna .protein:nth-of-type( 47) {
   animation-delay: 1.75s;
-  background: linear-gradient(to right, #4eceb9 50%, #acce4c 50%);
+  background: linear-gradient(to right, #acce4c 50%, #acce4c 50%);
 }
 .dna .protein:nth-of-type( 46) {
   animation-delay: 1.5s;
-  background: linear-gradient(to right, #acce4c 50%, #0dc9ed 50%);
+  background: linear-gradient(to right, #00ff00 50%, #acce4c 50%);
 }
 .dna .protein:nth-of-type( 45) {
   animation-delay: 1.25s;
-  background: linear-gradient(to right, #00ff00 50%, #4eceb9 50%);
+  background: linear-gradient(to right, #4eceb9 50%, #4eceb9 50%);
 }
 .dna .protein:nth-of-type( 44) {
   animation-delay: 1s;
-  background: linear-gradient(to right, #00ff00 50%, #4eceb9 50%);
+  background: linear-gradient(to right, #00ff00 50%, #00ff00 50%);
 }
 .dna .protein:nth-of-type( 43) {
   animation-delay: 0.75s;
-  background: linear-gradient(to right, #0dc9ed 50%, #0dc9ed 50%);
+  background: linear-gradient(to right, #4eceb9 50%, #00ff00 50%);
 }
 .dna .protein:nth-of-type( 42) {
   animation-delay: 0.5s;
-  background: linear-gradient(to right, #acce4c 50%, #00ff00 50%);
+  background: linear-gradient(to right, #4eceb9 50%, #acce4c 50%);
 }
 .dna .protein:nth-of-type( 41) {
   animation-delay: 0.25s;
-  background: linear-gradient(to right, #4eceb9 50%, #0dc9ed 50%);
+  background: linear-gradient(to right, #00ff00 50%, #4eceb9 50%);
 }
 .dna .protein:nth-of-type( 40) {
   animation-delay: 0s;
-  background: linear-gradient(to right, #00ff00 50%, #4eceb9 50%);
+  background: linear-gradient(to right, #4eceb9 50%, #4eceb9 50%);
 }
 .dna .protein:nth-of-type( 39) {
   animation-delay: -0.25s;
-  background: linear-gradient(to right, #0dc9ed 50%, #0dc9ed 50%);
+  background: linear-gradient(to right, #acce4c 50%, #acce4c 50%);
 }
 .dna .protein:nth-of-type( 38) {
   animation-delay: -0.5s;
-  background: linear-gradient(to right, #4eceb9 50%, #0dc9ed 50%);
+  background: linear-gradient(to right, #00ff00 50%, #acce4c 50%);
 }
 .dna .protein:nth-of-type( 37) {
   animation-delay: -0.75s;
-  background: linear-gradient(to right, #acce4c 50%, #00ff00 50%);
+  background: linear-gradient(to right, #4eceb9 50%, #acce4c 50%);
 }
 .dna .protein:nth-of-type( 36) {
   animation-delay: -1s;
-  background: linear-gradient(to right, #0dc9ed 50%, #0dc9ed 50%);
+  background: linear-gradient(to right, #00ff00 50%, #acce4c 50%);
 }
 .dna .protein:nth-of-type( 35) {
   animation-delay: -1.25s;
-  background: linear-gradient(to right, #0dc9ed 50%, #0dc9ed 50%);
+  background: linear-gradient(to right, #acce4c 50%, #0dc9ed 50%);
 }
 .dna .protein:nth-of-type( 34) {
   animation-delay: -1.5s;
-  background: linear-gradient(to right, #0dc9ed 50%, #0dc9ed 50%);
+  background: linear-gradient(to right, #0dc9ed 50%, #4eceb9 50%);
 }
 .dna .protein:nth-of-type( 33) {
   animation-delay: -1.75s;
-  background: linear-gradient(to right, #acce4c 50%, #4eceb9 50%);
+  background: linear-gradient(to right, #4eceb9 50%, #00ff00 50%);
 }
 .dna .protein:nth-of-type( 32) {
   animation-delay: -2s;
-  background: linear-gradient(to right, #acce4c 50%, #0dc9ed 50%);
+  background: linear-gradient(to right, #0dc9ed 50%, #0dc9ed 50%);
 }
 .dna .protein:nth-of-type( 31) {
   animation-delay: -2.25s;
-  background: linear-gradient(to right, #00ff00 50%, #00ff00 50%);
+  background: linear-gradient(to right, #0dc9ed 50%, #0dc9ed 50%);
 }
 .dna .protein:nth-of-type( 30) {
   animation-delay: -2.5s;
-  background: linear-gradient(to right, #0dc9ed 50%, #00ff00 50%);
+  background: linear-gradient(to right, #4eceb9 50%, #4eceb9 50%);
 }
 .dna .protein:nth-of-type( 29) {
   animation-delay: -2.75s;
-  background: linear-gradient(to right, #00ff00 50%, #4eceb9 50%);
+  background: linear-gradient(to right, #acce4c 50%, #4eceb9 50%);
 }
 .dna .protein:nth-of-type( 28) {
   animation-delay: -3s;
-  background: linear-gradient(to right, #acce4c 50%, #00ff00 50%);
+  background: linear-gradient(to right, #00ff00 50%, #acce4c 50%);
 }
 .dna .protein:nth-of-type( 27) {
   animation-delay: -3.25s;
-  background: linear-gradient(to right, #0dc9ed 50%, #00ff00 50%);
+  background: linear-gradient(to right, #4eceb9 50%, #0dc9ed 50%);
 }
 .dna .protein:nth-of-type( 26) {
   animation-delay: -3.5s;
-  background: linear-gradient(to right, #0dc9ed 50%, #acce4c 50%);
+  background: linear-gradient(to right, #0dc9ed 50%, #00ff00 50%);
 }
 .dna .protein:nth-of-type( 25) {
   animation-delay: -3.75s;
@@ -191,99 +191,99 @@ body {
 }
 .dna .protein:nth-of-type( 24) {
   animation-delay: -4s;
-  background: linear-gradient(to right, #4eceb9 50%, #0dc9ed 50%);
+  background: linear-gradient(to right, #acce4c 50%, #00ff00 50%);
 }
 .dna .protein:nth-of-type( 23) {
   animation-delay: -4.25s;
-  background: linear-gradient(to right, #00ff00 50%, #4eceb9 50%);
+  background: linear-gradient(to right, #0dc9ed 50%, #00ff00 50%);
 }
 .dna .protein:nth-of-type( 22) {
   animation-delay: -4.5s;
-  background: linear-gradient(to right, #acce4c 50%, #0dc9ed 50%);
+  background: linear-gradient(to right, #acce4c 50%, #4eceb9 50%);
 }
 .dna .protein:nth-of-type( 21) {
   animation-delay: -4.75s;
-  background: linear-gradient(to right, #acce4c 50%, #4eceb9 50%);
+  background: linear-gradient(to right, #0dc9ed 50%, #4eceb9 50%);
 }
 .dna .protein:nth-of-type( 20) {
   animation-delay: -5s;
-  background: linear-gradient(to right, #00ff00 50%, #acce4c 50%);
+  background: linear-gradient(to right, #4eceb9 50%, #0dc9ed 50%);
 }
 .dna .protein:nth-of-type( 19) {
   animation-delay: -5.25s;
-  background: linear-gradient(to right, #0dc9ed 50%, #00ff00 50%);
+  background: linear-gradient(to right, #00ff00 50%, #4eceb9 50%);
 }
 .dna .protein:nth-of-type( 18) {
   animation-delay: -5.5s;
-  background: linear-gradient(to right, #0dc9ed 50%, #00ff00 50%);
+  background: linear-gradient(to right, #acce4c 50%, #00ff00 50%);
 }
 .dna .protein:nth-of-type( 17) {
   animation-delay: -5.75s;
-  background: linear-gradient(to right, #00ff00 50%, #0dc9ed 50%);
+  background: linear-gradient(to right, #00ff00 50%, #acce4c 50%);
 }
 .dna .protein:nth-of-type( 16) {
   animation-delay: -6s;
-  background: linear-gradient(to right, #0dc9ed 50%, #00ff00 50%);
+  background: linear-gradient(to right, #acce4c 50%, #0dc9ed 50%);
 }
 .dna .protein:nth-of-type( 15) {
   animation-delay: -6.25s;
-  background: linear-gradient(to right, #00ff00 50%, #4eceb9 50%);
+  background: linear-gradient(to right, #4eceb9 50%, #00ff00 50%);
 }
 .dna .protein:nth-of-type( 14) {
   animation-delay: -6.5s;
-  background: linear-gradient(to right, #4eceb9 50%, #acce4c 50%);
+  background: linear-gradient(to right, #acce4c 50%, #4eceb9 50%);
 }
 .dna .protein:nth-of-type( 13) {
   animation-delay: -6.75s;
-  background: linear-gradient(to right, #4eceb9 50%, #acce4c 50%);
+  background: linear-gradient(to right, #acce4c 50%, #00ff00 50%);
 }
 .dna .protein:nth-of-type( 12) {
   animation-delay: -7s;
-  background: linear-gradient(to right, #4eceb9 50%, #00ff00 50%);
+  background: linear-gradient(to right, #00ff00 50%, #00ff00 50%);
 }
 .dna .protein:nth-of-type( 11) {
   animation-delay: -7.25s;
-  background: linear-gradient(to right, #00ff00 50%, #acce4c 50%);
+  background: linear-gradient(to right, #0dc9ed 50%, #4eceb9 50%);
 }
 .dna .protein:nth-of-type( 10) {
   animation-delay: -7.5s;
-  background: linear-gradient(to right, #4eceb9 50%, #4eceb9 50%);
+  background: linear-gradient(to right, #acce4c 50%, #acce4c 50%);
 }
 .dna .protein:nth-of-type( 9) {
   animation-delay: -7.75s;
-  background: linear-gradient(to right, #00ff00 50%, #4eceb9 50%);
+  background: linear-gradient(to right, #acce4c 50%, #00ff00 50%);
 }
 .dna .protein:nth-of-type( 8) {
   animation-delay: -8s;
-  background: linear-gradient(to right, #4eceb9 50%, #0dc9ed 50%);
+  background: linear-gradient(to right, #4eceb9 50%, #acce4c 50%);
 }
 .dna .protein:nth-of-type( 7) {
   animation-delay: -8.25s;
-  background: linear-gradient(to right, #acce4c 50%, #acce4c 50%);
+  background: linear-gradient(to right, #4eceb9 50%, #4eceb9 50%);
 }
 .dna .protein:nth-of-type( 6) {
   animation-delay: -8.5s;
-  background: linear-gradient(to right, #0dc9ed 50%, #0dc9ed 50%);
+  background: linear-gradient(to right, #0dc9ed 50%, #4eceb9 50%);
 }
 .dna .protein:nth-of-type( 5) {
   animation-delay: -8.75s;
-  background: linear-gradient(to right, #acce4c 50%, #00ff00 50%);
+  background: linear-gradient(to right, #0dc9ed 50%, #4eceb9 50%);
 }
 .dna .protein:nth-of-type( 4) {
   animation-delay: -9s;
-  background: linear-gradient(to right, #acce4c 50%, #00ff00 50%);
+  background: linear-gradient(to right, #4eceb9 50%, #0dc9ed 50%);
 }
 .dna .protein:nth-of-type( 3) {
   animation-delay: -9.25s;
-  background: linear-gradient(to right, #00ff00 50%, #acce4c 50%);
+  background: linear-gradient(to right, #acce4c 50%, #00ff00 50%);
 }
 .dna .protein:nth-of-type( 2) {
   animation-delay: -9.5s;
-  background: linear-gradient(to right, #0dc9ed 50%, #4eceb9 50%);
+  background: linear-gradient(to right, #4eceb9 50%, #4eceb9 50%);
 }
 .dna .protein:nth-of-type( 1) {
   animation-delay: -9.75s;
-  background: linear-gradient(to right, #4eceb9 50%, #0dc9ed 50%);
+  background: linear-gradient(to right, #0dc9ed 50%, #0dc9ed 50%);
 }
 .dna .protein b {
   width: 10px;
@@ -487,12 +487,12 @@ section {
 }
 #intro .content h1 {
   animation: SlideInDown 1s;
-  animation-delay: 0s;
+  animation-delay: 0.1s;
   animation-fill-mode: both;
 }
-#intro .content span.wrap {
+#intro .content .wrap {
   animation: SlideInDown 1s;
-  animation-delay: 0.1s;
+  animation-delay: 0.3s;
   animation-fill-mode: both;
 }
 #intro .features {
