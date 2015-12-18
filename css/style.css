@@ -85,205 +85,205 @@ body {
   animation: rot 8s linear infinite;
   position: relative;
 }
-.dna .protein:nth-of-type( 50) {
+.dna .protein:nth-of-type(50) {
   animation-delay: 2.5s;
-  background: linear-gradient(to right, #00ff00 50%, #0dc9ed 50%);
-}
-.dna .protein:nth-of-type( 49) {
-  animation-delay: 2.25s;
-  background: linear-gradient(to right, #acce4c 50%, #acce4c 50%);
-}
-.dna .protein:nth-of-type( 48) {
-  animation-delay: 2s;
-  background: linear-gradient(to right, #4eceb9 50%, #4eceb9 50%);
-}
-.dna .protein:nth-of-type( 47) {
-  animation-delay: 1.75s;
-  background: linear-gradient(to right, #acce4c 50%, #acce4c 50%);
-}
-.dna .protein:nth-of-type( 46) {
-  animation-delay: 1.5s;
-  background: linear-gradient(to right, #00ff00 50%, #acce4c 50%);
-}
-.dna .protein:nth-of-type( 45) {
-  animation-delay: 1.25s;
-  background: linear-gradient(to right, #4eceb9 50%, #4eceb9 50%);
-}
-.dna .protein:nth-of-type( 44) {
-  animation-delay: 1s;
-  background: linear-gradient(to right, #00ff00 50%, #00ff00 50%);
-}
-.dna .protein:nth-of-type( 43) {
-  animation-delay: 0.75s;
-  background: linear-gradient(to right, #4eceb9 50%, #00ff00 50%);
-}
-.dna .protein:nth-of-type( 42) {
-  animation-delay: 0.5s;
-  background: linear-gradient(to right, #4eceb9 50%, #acce4c 50%);
-}
-.dna .protein:nth-of-type( 41) {
-  animation-delay: 0.25s;
-  background: linear-gradient(to right, #00ff00 50%, #4eceb9 50%);
-}
-.dna .protein:nth-of-type( 40) {
-  animation-delay: 0s;
-  background: linear-gradient(to right, #4eceb9 50%, #4eceb9 50%);
-}
-.dna .protein:nth-of-type( 39) {
-  animation-delay: -0.25s;
-  background: linear-gradient(to right, #acce4c 50%, #acce4c 50%);
-}
-.dna .protein:nth-of-type( 38) {
-  animation-delay: -0.5s;
-  background: linear-gradient(to right, #00ff00 50%, #acce4c 50%);
-}
-.dna .protein:nth-of-type( 37) {
-  animation-delay: -0.75s;
-  background: linear-gradient(to right, #4eceb9 50%, #acce4c 50%);
-}
-.dna .protein:nth-of-type( 36) {
-  animation-delay: -1s;
-  background: linear-gradient(to right, #00ff00 50%, #acce4c 50%);
-}
-.dna .protein:nth-of-type( 35) {
-  animation-delay: -1.25s;
-  background: linear-gradient(to right, #acce4c 50%, #0dc9ed 50%);
-}
-.dna .protein:nth-of-type( 34) {
-  animation-delay: -1.5s;
-  background: linear-gradient(to right, #0dc9ed 50%, #4eceb9 50%);
-}
-.dna .protein:nth-of-type( 33) {
-  animation-delay: -1.75s;
-  background: linear-gradient(to right, #4eceb9 50%, #00ff00 50%);
-}
-.dna .protein:nth-of-type( 32) {
-  animation-delay: -2s;
-  background: linear-gradient(to right, #0dc9ed 50%, #0dc9ed 50%);
-}
-.dna .protein:nth-of-type( 31) {
-  animation-delay: -2.25s;
-  background: linear-gradient(to right, #0dc9ed 50%, #0dc9ed 50%);
-}
-.dna .protein:nth-of-type( 30) {
-  animation-delay: -2.5s;
-  background: linear-gradient(to right, #4eceb9 50%, #4eceb9 50%);
-}
-.dna .protein:nth-of-type( 29) {
-  animation-delay: -2.75s;
   background: linear-gradient(to right, #acce4c 50%, #4eceb9 50%);
 }
-.dna .protein:nth-of-type( 28) {
-  animation-delay: -3s;
-  background: linear-gradient(to right, #00ff00 50%, #acce4c 50%);
+.dna .protein:nth-of-type(49) {
+  animation-delay: 2.25s;
+  background: linear-gradient(to right, #4eceb9 50%, #acce4c 50%);
 }
-.dna .protein:nth-of-type( 27) {
-  animation-delay: -3.25s;
+.dna .protein:nth-of-type(48) {
+  animation-delay: 2s;
+  background: linear-gradient(to right, #acce4c 50%, #0dc9ed 50%);
+}
+.dna .protein:nth-of-type(47) {
+  animation-delay: 1.75s;
+  background: linear-gradient(to right, #00ff00 50%, #4eceb9 50%);
+}
+.dna .protein:nth-of-type(46) {
+  animation-delay: 1.5s;
+  background: linear-gradient(to right, #acce4c 50%, #acce4c 50%);
+}
+.dna .protein:nth-of-type(45) {
+  animation-delay: 1.25s;
+  background: linear-gradient(to right, #4eceb9 50%, #acce4c 50%);
+}
+.dna .protein:nth-of-type(44) {
+  animation-delay: 1s;
   background: linear-gradient(to right, #4eceb9 50%, #0dc9ed 50%);
 }
-.dna .protein:nth-of-type( 26) {
+.dna .protein:nth-of-type(43) {
+  animation-delay: 0.75s;
+  background: linear-gradient(to right, #00ff00 50%, #00ff00 50%);
+}
+.dna .protein:nth-of-type(42) {
+  animation-delay: 0.5s;
+  background: linear-gradient(to right, #00ff00 50%, #acce4c 50%);
+}
+.dna .protein:nth-of-type(41) {
+  animation-delay: 0.25s;
+  background: linear-gradient(to right, #0dc9ed 50%, #00ff00 50%);
+}
+.dna .protein:nth-of-type(40) {
+  animation-delay: 0s;
+  background: linear-gradient(to right, #4eceb9 50%, #00ff00 50%);
+}
+.dna .protein:nth-of-type(39) {
+  animation-delay: -0.25s;
+  background: linear-gradient(to right, #00ff00 50%, #00ff00 50%);
+}
+.dna .protein:nth-of-type(38) {
+  animation-delay: -0.5s;
+  background: linear-gradient(to right, #acce4c 50%, #acce4c 50%);
+}
+.dna .protein:nth-of-type(37) {
+  animation-delay: -0.75s;
+  background: linear-gradient(to right, #4eceb9 50%, #4eceb9 50%);
+}
+.dna .protein:nth-of-type(36) {
+  animation-delay: -1s;
+  background: linear-gradient(to right, #0dc9ed 50%, #acce4c 50%);
+}
+.dna .protein:nth-of-type(35) {
+  animation-delay: -1.25s;
+  background: linear-gradient(to right, #acce4c 50%, #00ff00 50%);
+}
+.dna .protein:nth-of-type(34) {
+  animation-delay: -1.5s;
+  background: linear-gradient(to right, #acce4c 50%, #4eceb9 50%);
+}
+.dna .protein:nth-of-type(33) {
+  animation-delay: -1.75s;
+  background: linear-gradient(to right, #0dc9ed 50%, #4eceb9 50%);
+}
+.dna .protein:nth-of-type(32) {
+  animation-delay: -2s;
+  background: linear-gradient(to right, #4eceb9 50%, #acce4c 50%);
+}
+.dna .protein:nth-of-type(31) {
+  animation-delay: -2.25s;
+  background: linear-gradient(to right, #acce4c 50%, #00ff00 50%);
+}
+.dna .protein:nth-of-type(30) {
+  animation-delay: -2.5s;
+  background: linear-gradient(to right, #0dc9ed 50%, #acce4c 50%);
+}
+.dna .protein:nth-of-type(29) {
+  animation-delay: -2.75s;
+  background: linear-gradient(to right, #acce4c 50%, #0dc9ed 50%);
+}
+.dna .protein:nth-of-type(28) {
+  animation-delay: -3s;
+  background: linear-gradient(to right, #4eceb9 50%, #4eceb9 50%);
+}
+.dna .protein:nth-of-type(27) {
+  animation-delay: -3.25s;
+  background: linear-gradient(to right, #4eceb9 50%, #00ff00 50%);
+}
+.dna .protein:nth-of-type(26) {
   animation-delay: -3.5s;
   background: linear-gradient(to right, #0dc9ed 50%, #00ff00 50%);
 }
-.dna .protein:nth-of-type( 25) {
+.dna .protein:nth-of-type(25) {
   animation-delay: -3.75s;
-  background: linear-gradient(to right, #4eceb9 50%, #00ff00 50%);
+  background: linear-gradient(to right, #4eceb9 50%, #acce4c 50%);
 }
-.dna .protein:nth-of-type( 24) {
+.dna .protein:nth-of-type(24) {
   animation-delay: -4s;
+  background: linear-gradient(to right, #acce4c 50%, #acce4c 50%);
+}
+.dna .protein:nth-of-type(23) {
+  animation-delay: -4.25s;
+  background: linear-gradient(to right, #0dc9ed 50%, #0dc9ed 50%);
+}
+.dna .protein:nth-of-type(22) {
+  animation-delay: -4.5s;
+  background: linear-gradient(to right, #0dc9ed 50%, #acce4c 50%);
+}
+.dna .protein:nth-of-type(21) {
+  animation-delay: -4.75s;
+  background: linear-gradient(to right, #00ff00 50%, #00ff00 50%);
+}
+.dna .protein:nth-of-type(20) {
+  animation-delay: -5s;
+  background: linear-gradient(to right, #acce4c 50%, #acce4c 50%);
+}
+.dna .protein:nth-of-type(19) {
+  animation-delay: -5.25s;
   background: linear-gradient(to right, #acce4c 50%, #00ff00 50%);
 }
-.dna .protein:nth-of-type( 23) {
-  animation-delay: -4.25s;
-  background: linear-gradient(to right, #0dc9ed 50%, #00ff00 50%);
-}
-.dna .protein:nth-of-type( 22) {
-  animation-delay: -4.5s;
-  background: linear-gradient(to right, #acce4c 50%, #4eceb9 50%);
-}
-.dna .protein:nth-of-type( 21) {
-  animation-delay: -4.75s;
-  background: linear-gradient(to right, #0dc9ed 50%, #4eceb9 50%);
-}
-.dna .protein:nth-of-type( 20) {
-  animation-delay: -5s;
-  background: linear-gradient(to right, #4eceb9 50%, #0dc9ed 50%);
-}
-.dna .protein:nth-of-type( 19) {
-  animation-delay: -5.25s;
-  background: linear-gradient(to right, #00ff00 50%, #4eceb9 50%);
-}
-.dna .protein:nth-of-type( 18) {
+.dna .protein:nth-of-type(18) {
   animation-delay: -5.5s;
   background: linear-gradient(to right, #acce4c 50%, #00ff00 50%);
 }
-.dna .protein:nth-of-type( 17) {
+.dna .protein:nth-of-type(17) {
   animation-delay: -5.75s;
-  background: linear-gradient(to right, #00ff00 50%, #acce4c 50%);
-}
-.dna .protein:nth-of-type( 16) {
-  animation-delay: -6s;
-  background: linear-gradient(to right, #acce4c 50%, #0dc9ed 50%);
-}
-.dna .protein:nth-of-type( 15) {
-  animation-delay: -6.25s;
-  background: linear-gradient(to right, #4eceb9 50%, #00ff00 50%);
-}
-.dna .protein:nth-of-type( 14) {
-  animation-delay: -6.5s;
-  background: linear-gradient(to right, #acce4c 50%, #4eceb9 50%);
-}
-.dna .protein:nth-of-type( 13) {
-  animation-delay: -6.75s;
   background: linear-gradient(to right, #acce4c 50%, #00ff00 50%);
 }
-.dna .protein:nth-of-type( 12) {
+.dna .protein:nth-of-type(16) {
+  animation-delay: -6s;
+  background: linear-gradient(to right, #00ff00 50%, #acce4c 50%);
+}
+.dna .protein:nth-of-type(15) {
+  animation-delay: -6.25s;
+  background: linear-gradient(to right, #acce4c 50%, #0dc9ed 50%);
+}
+.dna .protein:nth-of-type(14) {
+  animation-delay: -6.5s;
+  background: linear-gradient(to right, #4eceb9 50%, #0dc9ed 50%);
+}
+.dna .protein:nth-of-type(13) {
+  animation-delay: -6.75s;
+  background: linear-gradient(to right, #00ff00 50%, #acce4c 50%);
+}
+.dna .protein:nth-of-type(12) {
   animation-delay: -7s;
-  background: linear-gradient(to right, #00ff00 50%, #00ff00 50%);
+  background: linear-gradient(to right, #00ff00 50%, #4eceb9 50%);
 }
-.dna .protein:nth-of-type( 11) {
+.dna .protein:nth-of-type(11) {
   animation-delay: -7.25s;
-  background: linear-gradient(to right, #0dc9ed 50%, #4eceb9 50%);
-}
-.dna .protein:nth-of-type( 10) {
-  animation-delay: -7.5s;
   background: linear-gradient(to right, #acce4c 50%, #acce4c 50%);
 }
-.dna .protein:nth-of-type( 9) {
+.dna .protein:nth-of-type(10) {
+  animation-delay: -7.5s;
+  background: linear-gradient(to right, #0dc9ed 50%, #00ff00 50%);
+}
+.dna .protein:nth-of-type(9) {
   animation-delay: -7.75s;
   background: linear-gradient(to right, #acce4c 50%, #00ff00 50%);
 }
-.dna .protein:nth-of-type( 8) {
+.dna .protein:nth-of-type(8) {
   animation-delay: -8s;
-  background: linear-gradient(to right, #4eceb9 50%, #acce4c 50%);
+  background: linear-gradient(to right, #0dc9ed 50%, #acce4c 50%);
 }
-.dna .protein:nth-of-type( 7) {
+.dna .protein:nth-of-type(7) {
   animation-delay: -8.25s;
-  background: linear-gradient(to right, #4eceb9 50%, #4eceb9 50%);
+  background: linear-gradient(to right, #4eceb9 50%, #00ff00 50%);
 }
-.dna .protein:nth-of-type( 6) {
+.dna .protein:nth-of-type(6) {
   animation-delay: -8.5s;
-  background: linear-gradient(to right, #0dc9ed 50%, #4eceb9 50%);
-}
-.dna .protein:nth-of-type( 5) {
-  animation-delay: -8.75s;
-  background: linear-gradient(to right, #0dc9ed 50%, #4eceb9 50%);
-}
-.dna .protein:nth-of-type( 4) {
-  animation-delay: -9s;
   background: linear-gradient(to right, #4eceb9 50%, #0dc9ed 50%);
 }
-.dna .protein:nth-of-type( 3) {
-  animation-delay: -9.25s;
+.dna .protein:nth-of-type(5) {
+  animation-delay: -8.75s;
   background: linear-gradient(to right, #acce4c 50%, #00ff00 50%);
 }
-.dna .protein:nth-of-type( 2) {
-  animation-delay: -9.5s;
-  background: linear-gradient(to right, #4eceb9 50%, #4eceb9 50%);
+.dna .protein:nth-of-type(4) {
+  animation-delay: -9s;
+  background: linear-gradient(to right, #00ff00 50%, #acce4c 50%);
 }
-.dna .protein:nth-of-type( 1) {
+.dna .protein:nth-of-type(3) {
+  animation-delay: -9.25s;
+  background: linear-gradient(to right, #4eceb9 50%, #00ff00 50%);
+}
+.dna .protein:nth-of-type(2) {
+  animation-delay: -9.5s;
+  background: linear-gradient(to right, #0dc9ed 50%, #00ff00 50%);
+}
+.dna .protein:nth-of-type(1) {
   animation-delay: -9.75s;
-  background: linear-gradient(to right, #0dc9ed 50%, #0dc9ed 50%);
+  background: linear-gradient(to right, #acce4c 50%, #acce4c 50%);
 }
 .dna .protein b {
   width: 10px;
@@ -302,14 +302,14 @@ body {
   height: 30px;
   left: 5px;
   top: 0;
-  background-image: linear-gradient(#ffffff, rgba(255, 255, 255, 0));
+  background-image: linear-gradient(white, rgba(255, 255, 255, 0));
   position: absolute;
   display: block;
 }
 .dna .protein b:nth-of-type(2) {
   left: auto;
   right: -2px;
-  background-color: #ffffff;
+  background-color: white;
 }
 .dna .protein:last-child b {
   display: none;
@@ -406,6 +406,7 @@ section {
   width: 1100px;
   box-sizing: border-box;
   padding: 0px 50px;
+  margin: auto;
 }
 .container.white-bg {
   background: #FFFFFF;
@@ -577,21 +578,19 @@ section {
   margin-top: 3px;
 }
 #products-slider {
-  background-size: 100%;
-  height: 100vh;
   min-height: 700px;
   width: 100%;
   position: relative;
-  overflow: hidden;
   display: block;
   transition: 0.3s ease;
 }
-#products-slider h1,
-#products-slider h2,
-#products-slider h3 {
-  font-family: 'helvetica';
+#products-slider .container {
+  text-align: center;
 }
-#products-slider .bg-1 {
+#products-slider span.subtext {
+  margin: auto;
+}
+.bg-1 {
   background: #9F4E08;
   background-size: cover;
   position: absolute;
@@ -601,7 +600,7 @@ section {
   right: 0;
   transition: 0.3s ease;
 }
-#products-slider .bg-2 {
+.bg-2 {
   background: #169E99;
   position: absolute;
   width: 100%;
@@ -610,25 +609,7 @@ section {
   right: 0;
   transition: 0.3s ease;
 }
-#products-slider p {
-  font-size: 16px;
-  line-height: 25px;
-  width: 562px;
-  padding-left: 20px;
-  text-align: center;
-}
-#products-slider .laptop {
-  width: 800px;
-  height: 700px;
-  left: -99px;
-  top: 0;
-  z-index: 2;
-  position: absolute;
-  background-image: url('../files/laptop-full.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-#products-slider .nav {
+.nav {
   width: 50px;
   height: 200px;
   background: black;
@@ -639,7 +620,7 @@ section {
   position: absolute;
   transition: 0.3s ease;
 }
-#products-slider .nav::before {
+.nav::before {
   content: '';
   position: absolute;
   width: 30px;
@@ -654,27 +635,213 @@ section {
   background-repeat: no-repeat;
   transform: rotate(-90deg);
 }
-#products-slider .nav.next {
+.nav.next {
   right: 0;
 }
-#products-slider .nav.prev {
+.nav.prev {
   left: 0;
 }
-#products-slider .nav.prev::before {
+.nav.prev::before {
   transform: rotate(90deg);
 }
-#products-slider .slide-wrapper {
-  width: 200vw;
-  height: 550px;
-  margin: auto;
+.product {
+  width: 100vw;
+  height: 700px;
   top: 0;
   bottom: 0;
-  position: absolute;
-  transition: 1s cubic-bezier(0.96, -0.01, 0.11, 1);
-}
-#products-slider .container {
   margin: auto;
+  position: absolute;
+  z-index: 1;
+  color: white;
+  padding-top: 100px;
+  transition: 1s cubic-bezier(0.85, 0.13, 0.1, 0.99);
+}
+#slider {
+  width: 48.4vw;
+  height: 28.5vw;
+  float: left;
+  margin-top: 10vw;
+  position: relative;
+}
+#slider img {
+  width: 100%;
+}
+#slider .wrapper {
+  width: 100%;
   height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.info {
+  width: 300px;
+  float: left;
+  padding-top: 100px;
+  padding-left: 77px;
+}
+.info .navigation a {
+  line-height: 40px;
+  display: block;
+  font-size: 20px;
+  opacity: 0.5;
+}
+.info .navigation a.active {
+  opacity: 1;
+}
+.info p {
+  font-size: 18px;
+  line-height: 25px;
+  border-left: 1px solid white;
+  padding-left: 20px;
+  position: absolute;
+  width: 300px;
+  transition: 0.3s ease;
+}
+.info button {
+  position: absolute;
+  bottom: 100px;
+}
+.laptop {
+  width: 70vw;
+  height: 40vw;
+  position: absolute;
+  background-image: url('../files/laptop-full.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: -4.5vw;
+  left: -11vw;
+}
+.product#edulastic #slider {
+  float: right;
+}
+.product#edulastic .info {
+  padding-right: 90px;
+  float: right;
+  text-align: right;
+}
+.product#edulastic p {
+  border-right: 1px solid white;
+  border-left: none;
+  text-align: right;
+  padding-right: 20px;
+}
+.slide {
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: 0.3s ease;
+}
+.slide#orion1 {
+  background-image: url('/files/products/orion1.jpg');
+}
+.slide#orion2 {
+  background-image: url('/files/products/orion2.png');
+}
+.slide#orion3 {
+  background-image: url('/files/products/orion3.png');
+}
+.slide#edulastic1 {
+  background-image: url('/files/products/edulastic3.png');
+}
+.slide#edulastic2 {
+  background-image: url('/files/products/edulastic2.png');
+}
+.slide#edulastic3 {
+  background-image: url('/files/products/edulastic1.gif');
+}
+#slider.slide1 #orion1,
+#slider.slide1 #edulastic1 {
+  transform: translateX(0);
+}
+#slider.slide1 #orion2,
+#slider.slide1 #edulastic2 {
+  transform: translateX(50vw);
+}
+#slider.slide1 #orion3,
+#slider.slide1 #edulastic3 {
+  transform: translateX(100vw);
+}
+#slider.slide2 #orion1,
+#slider.slide2 #edulastic1 {
+  transform: translateX(-50vw);
+}
+#slider.slide2 #orion2,
+#slider.slide2 #edulastic2 {
+  transform: translateX(0);
+}
+#slider.slide2 #orion3,
+#slider.slide2 #edulastic3 {
+  transform: translateX(50vw);
+}
+#slider.slide3 #orion1,
+#slider.slide3 #edulastic1 {
+  transform: translateX(-100vw);
+}
+#slider.slide3 #orion2,
+#slider.slide3 #edulastic2 {
+  transform: translateX(-50vw);
+}
+#slider.slide3 #orion3,
+#slider.slide3 #edulastic3 {
+  transform: translateX(0vw);
+}
+#description.slide1 p#orion-text1,
+#description.slide1 #edulastic-text1 {
+  transform: translateX(0px);
+  opacity: 1;
+}
+#description.slide1 p#orion-text2,
+#description.slide1 #edulastic-text2 {
+  transform: translateX(300px);
+  opacity: 0;
+}
+#description.slide1 p#orion-text3,
+#description.slide1 #edulastic-text3 {
+  transform: translateX(600px);
+  opacity: 0;
+}
+#description.slide2 p#orion-text1,
+#description.slide2 #edulastic-text1 {
+  transform: translateX(-300px);
+  opacity: 0;
+}
+#description.slide2 p#orion-text2,
+#description.slide2 #edulastic-text2 {
+  transform: translateX(0px);
+  opacity: 1;
+}
+#description.slide2 p#orion-text3,
+#description.slide2 #edulastic-text3 {
+  transform: translateX(300px);
+  opacity: 0;
+}
+#description.slide3 p#orion-text1,
+#description.slide3 #edulastic-text1 {
+  transform: translateX(-600px);
+  opacity: 0;
+}
+#description.slide3 p#orion-text2,
+#description.slide3 #edulastic-text2 {
+  transform: translateX(-300px);
+  opacity: 0;
+}
+#description.slide3 p#orion-text3,
+#description.slide3 #edulastic-text3 {
+  transform: translateX(0px);
+  opacity: 1;
+}
+#products-slider.state1 .product#orion {
+  transform: translateX(0);
+}
+#products-slider.state1 .product#edulastic {
+  transform: translateX(110vw);
+}
+#products-slider.state1 .nav.prev {
+  transform: translateX(-50px);
+}
+#products-slider.state1 .nav.next {
+  transform: translateX(0px);
 }
 #products-slider.state1 .bg-1 {
   opacity: 1;
@@ -682,155 +849,23 @@ section {
 #products-slider.state1 .bg-2 {
   opacity: 0;
 }
-#products-slider.state1 .slide-wrapper {
+#products-slider.state2 .product#orion {
+  transform: translateX(-110vw);
+}
+#products-slider.state2 .product#edulastic {
   transform: translateX(0);
 }
-#products-slider.state1 .nav.prev {
-  transform: translateX(-50px);
+#products-slider.state2 .nav.prev {
+  transform: translateX(0px);
+}
+#products-slider.state2 .nav.next {
+  transform: translateX(50px);
 }
 #products-slider.state2 .bg-1 {
   opacity: 0;
 }
 #products-slider.state2 .bg-2 {
   opacity: 1;
-}
-#products-slider.state2 .slide-wrapper {
-  transform: translateX(-100vw);
-}
-#products-slider.state2 .nav.next {
-  transform: translateX(50px);
-}
-.product {
-  left: 0;
-  right: 0;
-  margin: auto;
-  width: 100vw;
-  height: 550px;
-  float: left;
-}
-.product .info {
-  width: 283px;
-  float: left;
-}
-.product .info .navigation {
-  padding-top: 30px;
-}
-.product .info span {
-  opacity: 0.6;
-  padding-top: 20px;
-  font-size: 20px;
-  display: block;
-  font-weight: 300;
-  line-height: 22.39px;
-}
-.product .info hr {
-  border: 0;
-  height: 1px;
-  background: white;
-  opacity: 0.1;
-  margin: 23px 0;
-  width: 240px;
-}
-.product .info h3 {
-  margin-bottom: 40px;
-  opacity: 0.6;
-}
-.product .info h3::before {
-  content: '';
-  display: block;
-  width: 20px;
-  height: 20px;
-  border-radius: 50px;
-  border: 2px solid white;
-  float: left;
-  margin-right: 10px;
-}
-.product .info h3:hover {
-  opacity: 1;
-}
-.product .info h3.active {
-  opacity: 1;
-}
-.product .info h3.active::before {
-  background: white;
-}
-#orion {
-  color: white;
-}
-#edulastic {
-  color: white;
-}
-#edulastic .container {
-  background: transparent;
-}
-.slider {
-  width: 662px;
-  height: 550px;
-  position: relative;
-  padding-top: 39px;
-  float: right;
-}
-.slider #slide-wrapper {
-  transition: 0.3s ease;
-}
-.slider #slide-wrapper2 {
-  transition: 0.3s ease;
-}
-.slider #orion1 {
-  opacity: 1;
-}
-.slider #orion2 {
-  opacity: 0;
-}
-.slider #orion3 {
-  opacity: 0;
-}
-.slider .slide1 {
-  transform: translate3d(0px, 0px, 0px);
-}
-.slider .slide1 #orion1 {
-  opacity: 1;
-}
-.slider .slide1 #orion2 {
-  opacity: 0;
-}
-.slider .slide1 #orion3 {
-  opacity: 0;
-}
-.slider .slide2 {
-  transform: translate3d(0px, -550px, 0px);
-}
-.slider .slide2 #orion1 {
-  opacity: 0;
-}
-.slider .slide2 #orion2 {
-  opacity: 1;
-}
-.slider .slide2 #orion3 {
-  opacity: 0;
-}
-.slider .slide3 {
-  transform: translate3d(0px, -1110px, 0px);
-}
-.slider .slide3 #orion1 {
-  opacity: 0;
-}
-.slider .slide3 #orion2 {
-  opacity: 0;
-}
-.slider .slide3 #orion3 {
-  opacity: 1;
-}
-.slider .slide {
-  height: 100%;
-  transition: 0.3s ease;
-}
-.slider .slide img {
-  width: 554px;
-  margin-left: 26px;
-  margin-top: 8px;
-  display: block;
-  margin-bottom: 80px;
 }
 #partners {
   padding-top: 100px;

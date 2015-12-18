@@ -1,43 +1,25 @@
 $(document).on('touchstart click', '#bullet1', function(){
-  $('#slide-wrapper').attr('class','slide1');
+  $('#slider').attr('class','slide1');
+  $('#description').attr('class','slide1');
   $('#bullet1').addClass('active');
   $('#bullet2').removeClass('active');
   $('#bullet3').removeClass('active');
 });
 
 $(document).on('touchstart click', '#bullet2', function(){
-  $('#slide-wrapper').attr('class','slide2');
+  $('#slider').attr('class','slide2');
+  $('#description').attr('class','slide2');
   $('#bullet1').removeClass('active');
   $('#bullet2').addClass('active');
   $('#bullet3').removeClass('active');
 });
 
 $(document).on('touchstart click', '#bullet3', function(){
-  $('#slide-wrapper').attr('class','slide3');
+  $('#slider').attr('class','slide3');
+  $('#description').attr('class','slide3');
   $('#bullet1').removeClass('active');
   $('#bullet2').removeClass('active');
   $('#bullet3').addClass('active');
-});
-
-$(document).on('touchstart click', '#bullet1-2', function(){
-  $('#slide-wrapper2').attr('class','slide1');
-  $('#bullet1-2').addClass('active');
-  $('#bullet2-2').removeClass('active');
-  $('#bullet3-2').removeClass('active');
-});
-
-$(document).on('touchstart click', '#bullet2-2', function(){
-  $('#slide-wrapper2').attr('class','slide2');
-  $('#bullet1-2').removeClass('active');
-  $('#bullet2-2').addClass('active');
-  $('#bullet3-2').removeClass('active');
-});
-
-$(document).on('touchstart click', '#bullet3-2', function(){
-  $('#slide-wrapper2').attr('class','slide3');
-  $('#bullet1-2').removeClass('active');
-  $('#bullet2-2').removeClass('active');
-  $('#bullet3-2').addClass('active');
 });
 
 $(document ).on( "mousemove", function( event ) {
